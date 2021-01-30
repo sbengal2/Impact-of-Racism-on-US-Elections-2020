@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Data Count By Date</h1>
+  <br><br>
+  <form action="" method="POST">
+    <div class="form-group">
+      <label for="source">source:</label>
+      <select name="source" id="source">
+      <option value="twitter">Twitter</option>
+      <option value="reddit">Reddit</option>
+      </select>
+        <br><br>
+    </div>
+    <div class="form-group">
+      <label for="start">start date</label>
+      <input placeholder="mm/dd/yyyy" type="date" id="start" name="from" value={{request.form.from}}>
+    </div>
+    <div class="form-group">
+      <label for="end">end date</label>
+      <input placeholder="mm/dd/yyyy" type="date" id="end" name="to" value={{request.form.to}}>
+    </div>
+    <button type="submit" class="btn btn-primary">show results</button>
+  </form>
+{% endblock %}

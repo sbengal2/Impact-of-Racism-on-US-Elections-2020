@@ -1,0 +1,16 @@
+{
+    "twitterApiData": [
+        {
+            "apiKey": "wLJvdtvFOTDrw4dncMaHxmfLz",
+            "bearerToken": "Bearer AAAAAAAAAAAAAAAAAAAAAIebHAEAAAAAhG72zShIlMSDjmr3lC5DJNS7mZE%3Dy9BxWSGNIQj5KeWSU32BidGj6b7hhRVP7NGNvc85vLQ7d60KMc",
+            "apiKeySecret": "D3Z9ym8YzU8KSPodtXJ8M0K3a7NOl732Fjg0oWmo85KNguzXey",
+            "accessToken": "1299053484105502721-gUAFCRnOyETp6qMF740WrEH2GeLT7C",
+            "accessTokenSecret": "A2nT1qbUQSoDQIwdDKqEySVR4VO0BfnR3WdFSn4h95ujP",
+            "urlApiSearch1": "https://api.twitter.com/1.1/search/tweets.json?q=%23BlackLivesMatter&result_type=recentor%23#2020 elections",
+            "urlApiSearch": "https://api.twitter.com/1.1/search/tweets.json?q=%232020Election&result_type=popular",
+            "urlApiSearhDumpTrump": "https://api.twitter.com/1.1/search/tweets.json?q=DumpTrump&result_type=popular",
+            "urlApiStream":"https://api.twitter.com/2/tweets/sample/stream",
+            "urlApilabStream":"https://api.twitter.com/labs/1/tweets/stream/sample"
+        }
+    ]
+}

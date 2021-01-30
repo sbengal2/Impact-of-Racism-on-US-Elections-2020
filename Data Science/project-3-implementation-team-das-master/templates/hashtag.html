@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Popular Hashtags</h1>
+  <form action="" method="POST">
+    <div class="form-group">
+      <label>enter the search term</label>
+      <input type="text" name="topic" class="form-control" value={{request.form.topic}} >
+    </div>
+    <button type="submit" class="btn btn-primary" >show results</button>
+  </form>
+{% endblock %}

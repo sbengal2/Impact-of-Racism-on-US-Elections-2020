@@ -1,0 +1,23 @@
+{
+  "name": "twittersearchapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Darshan Doddaghatta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^3.0.2",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.6.2",
+    "needle": "^2.5.2",
+    "nodemon": "^2.0.5",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": "contact ddoddag1@binghamton.edu"
+}
